@@ -38,10 +38,10 @@ const Start = () => {
   return (
         <div style={classes.root}>
           <Grid style={classes.paper} container >
-            <Grid item xs={12} sm={5} md={5} >
+            <Grid item xs={5} sm={5} md={5} >
               <LeftSide />
             </Grid>
-            <Grid item xs={12} sm={7} md={7}>
+            <Grid item xs={7} sm={7} md={7}>
               <RightSide />
             </Grid>
           </Grid>
