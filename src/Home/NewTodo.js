@@ -113,7 +113,7 @@ console.log({tags: tags})
 
      return (
           <Grid  container >
-            <Grid item xs={5} sm={5} md={5} >
+            <Grid item xs={12} sm={5} md={5} >
               
   
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
