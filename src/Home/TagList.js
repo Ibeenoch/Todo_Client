@@ -19,7 +19,7 @@ const TagList = ({ item }) => {
              <div style={{  }}>
      
      <div className='picker' style={{ height: 'auto', width: 'max-content', padding: '5px', backgroundColor: (pickcolor()), margin: '10px'}}>
-        {typeof item === 'object' && item.join(' ').replace(item, `#${item}`).replace(/\s/g, ' #')}
+        {typeof item === 'object' && item.join(' ').replace(item, `#${item}`).replace(/\s/, ' #')}
      </div>
 
  
