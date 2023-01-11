@@ -112,6 +112,10 @@ console.log({tags: tags})
       }
 
      return (
+          <Grid  container >
+            <Grid item xs={5} sm={5} md={5} >
+              
+  
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
     <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -182,6 +186,10 @@ console.log({tags: tags})
                         </Button>
           
         </div>
+
+          </Grid>
+          
+          </Grid>
     )
 }
 
