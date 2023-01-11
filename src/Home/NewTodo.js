@@ -113,11 +113,11 @@ console.log({tags: tags})
       }
 
      return (
-          <Grid  container >
+          <Grid style={{   padding: '20px', textAlign: 'center', fontFamily: 'Roboto',  }}  container >
             <Grid item xs={12} sm={5} md={5} >
               
   
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center', paddingLeft: '20px', }}>
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
     <div style={{ display: 'flex', flexDirection: 'column' }}>
         <h1>Create A Project</h1>
