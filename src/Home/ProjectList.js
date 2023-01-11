@@ -20,7 +20,7 @@ const ProjectList = ({item}) => {
         <div style={{ border: '1px solid gray', paddingLeft: '20px' }}>
             <div style={{ display: 'flex',  alignItems: 'center', marginTop: '5px'}}>
             <div sx={{ margin: 0, padding: 0, fontSize: '5px'}} >
-              {img.map((it)=> (<img src={it}  style={{ width: '20px', height: '20px'}} />))}
+              {img.map((it)=> (<img src={it}  style={{ width: '20px', height: '20px', borderRadius: '50%'}} />))}
                 
              
             </div>
